@@ -1,0 +1,25 @@
+fastapi
+uvicorn
+sentence-transformers
+numpy
+pandas
+requests
+rapidfuzz
+annoy
+streamlit
+openpyxl
+deep-translator
+
+# =========================
+# HOW TO RUN
+# =========================
+# 1. pip install -r requirements.txt
+# 2. uvicorn app:app --reload
+
+
+# python -m uvicorn app:app --reload    -->
+# http://127.0.0.1:8000/docs            -->
+# streamlit run UI.py
+
+# python -m uvicorn db_api:fake_app --reload --port 9000
+# 3. Open: http://127.0.0.1:9000/docs
